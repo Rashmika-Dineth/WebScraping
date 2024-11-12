@@ -22,19 +22,6 @@ def open_the_website():
     except Exception as e:
         print(f"An error occurred while trying to close the consent banner: {e}")
 
-def clean_html_entities(input_text):
-    # Replace &ZeroWidthSpace; with an empty string (or space if needed)
-    cleaned_text = input_text.replace("&ZeroWidthSpace;", "")
-    
-    # Optionally handle other common HTML entities
-    cleaned_text = cleaned_text.replace("&nbsp;", " ")  # Convert non-breaking space to normal space
-    cleaned_text = re.sub(r"&[a-zA-Z0-9#]+;", "", cleaned_text)  # Remove other HTML entities if necessary
-    
-    # Clean any leading or trailing spaces
-    cleaned_text = cleaned_text.strip()
-    
-    return cleaned_text
-
 def scrape_obituary_notices():
     """Scrapes obituary notices from the website and saves them to a file"""
     page = browser.page()

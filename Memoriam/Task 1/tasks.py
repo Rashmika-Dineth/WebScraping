@@ -31,7 +31,7 @@ def scrape_obituary_notices():
         with open("obituary_notices.txt", "w") as file:
             if h2_elements:
                 for i, h2 in enumerate(h2_elements, start=1):
-                    h2_text = h2.inner_text()  
+                    h2_text = h2.inner_text().replace("&nbsp;", " ").strip().replace("\u200b", "")
                     file.write(f"Obituary Notice {i}: {h2_text}\n")  
                     #print(f"Obituary Notice {i}: {h2_text}")  
                 print("Obituary notices have been written to 'obituary_notices.txt'.")
