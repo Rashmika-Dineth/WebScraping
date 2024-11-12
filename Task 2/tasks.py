@@ -28,7 +28,7 @@ def scrape_obituary_notices():
 
     try:
         p_elements = page.query_selector_all("p")
-        with open("obituary_notices.txt", "rw") as file:
+        with open("obituary_notices.txt", "w") as file:
             if p_elements:
                 for i, p in enumerate(p_elements, start=1):
                     p_text = p.inner_text().strip()

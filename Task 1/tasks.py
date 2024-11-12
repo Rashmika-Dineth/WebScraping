@@ -28,7 +28,7 @@ def scrape_obituary_notices():
 
     try:
         h2_elements = page.query_selector_all("h2.pld-post-title")
-        with open("obituary_notices.txt", "rw") as file:
+        with open("obituary_notices.txt", "w") as file:
             if h2_elements:
                 for i, h2 in enumerate(h2_elements, start=1):
                     h2_text = h2.inner_text()  
