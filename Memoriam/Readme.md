@@ -115,3 +115,47 @@ Apply natural language processing (NLP) for advanced tasks like extracting addit
 ###### Reports/Dashboards: Basic analytical outputs or visualizations summarizing obituary trends, possibly using tools like Tableau or Power BI if needed.
 
 By leveraging Robocorp’s Sema4AI with Python, you can automate obituary data collection, manage a centralized data repository, and establish a scalable ETL pipeline that efficiently retrieves and processes obituary records across multiple sites.
+
+# Why select this option ?
+
+1.  Its simple python scripting so you can do anything and it makes easy for big data analysis with many open source libraries available.
+
+2.  There are many libraries for data store, data export and data import options.
+
+3.  Robocorp is provides control panel, so we can use it as a cloud application and store the data in the cloud. Also we can use cloud vaults to store security crdentials. (This part not implemented yet.)
+
+4.  We can use variables and dynamic data in a separate file so you do not need to change them inside the code.
+
+5.  This framework is using python scripts and runs very fast compared to other frameworks.
+
+### The pricing information for the Robocorp Framework is available in below link
+
+https://sema4.ai/docs/automation/pricing
+
+![](Images/price.JPG)
+
+### The code for the given web pages as follows,
+
+Task 1- Australian - https://www.elanka.com.au/obituaries/
+
+Task 2 - Canada (Times of Lanka) - https://reserved767.rssing.com/chan-65241722/all_p1.html
+
+Task 3 - LK (Sunday Times) - https://www.sundayobserver.lk/category/obituaries/
+
+Task 4 - LK (Daily News Archive) - https://www.dailynews.lk/2024/10/21/obituaries/657697/obituaries-332/
+
+### The sample code for the "Task 1" is as follows,
+
+![](Images/code.JPG)
+
+### The sample results for the "Task 1" is as follows,
+
+![](Images/result.JPG)
+
+So it has around 627 Notices in the first web page and only takes 01:54 min to complete the task.
+
+### The log data can be found in below location
+
+./Memoriam/Task 1/ output/log.html
+
+![](Images/log.JPG)
