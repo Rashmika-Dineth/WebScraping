@@ -102,10 +102,14 @@ Apply natural language processing (NLP) for advanced tasks like extracting addit
 
 # Deliverables
 
-## Python Scripts: Separate scripts for each site’s data extraction.
+#### Python Scripts: Separate scripts for each site’s data extraction.
 
-Central Database: A database or file storage system to hold the data in a consistent format.
-ETL Pipeline: Script to clean and load data into the central repository.
-Documentation: Detailed guide for maintaining and extending the robot to other sites.
-Reports/Dashboards: Basic analytical outputs or visualizations summarizing obituary trends, possibly using tools like Tableau or Power BI if needed.
+#### Central Database: A database or file storage system to hold the data in a consistent format.
+
+#### ETL Pipeline: Script to clean and load data into the central repository.
+
+#### Documentation: Detailed guide for maintaining and extending the robot to other sites.
+
+#### Reports/Dashboards: Basic analytical outputs or visualizations summarizing obituary trends, possibly using tools like Tableau or Power BI if needed.
+
 By leveraging Robocorp’s Sema4AI with Python, you can automate obituary data collection, manage a centralized data repository, and establish a scalable ETL pipeline that efficiently retrieves and processes obituary records across multiple sites.
