@@ -1,3 +1,5 @@
+# Project Memoriam
+
 Objective - Web scraping - retrieve data from different targeted websites to a centralized location
 (obituary notices - historical data) --- write a script to retrieve data
 give minimal effort
@@ -24,11 +26,11 @@ Title the project "memoriam"
 
 ############################################################################################
 
-# My Selection is sema4ai with Robocorp Framework using python.
+## My Selection is sema4ai with Robocorp Framework using python.
 
 To create the "Memoriam" project with Robocorp’s Sema4AI using Python for web scraping obituary data, we’ll focus on automating the following core tasks: retrieving data, structuring and storing it, and performing ETL (Extract, Transform, Load) processes. Below is a detailed plan with tools, methods, and considerations for each stage.
 
-# Step 1: Define a Streamlined Process
+### Step 1: Define a Streamlined Process
 
 1. Identify Target Websites and Elements
    First, analyze the page structure for each website to identify the HTML elements containing obituary data such as names, dates, ages, and other relevant fields.
@@ -52,7 +54,7 @@ To create the "Memoriam" project with Robocorp’s Sema4AI using Python for web 
    Technologies and Tools to Utilize
    Robocorp’s RPA Framework: Automates the workflow, especially for navigating and scraping data from complex websites.
 
-# Python Libraries:
+### Python Libraries:
 
 requests and BeautifulSoup for web scraping.
 pandas for data cleaning, transformation, and CSV/JSON handling.
@@ -61,17 +63,17 @@ Data Storage Options:
 For lightweight storage, use SQLite or store the data as JSON/CSV.
 For larger datasets, a relational database such as PostgreSQL or cloud storage like Google Cloud Storage is recommended.
 
-# Workflow Overview
+## Workflow Overview
 
-## Script for Each Website:
+### Script for Each Website:
 
 Write a dedicated Python function for each site to navigate its structure, fetch relevant obituary records, and return structured data.
 
-## Centralized Data Collection:
+### Centralized Data Collection:
 
 Store the data from each website in a consistent format (JSON or CSV) in a temporary directory for further processing.
 
-## ETL Pipeline:
+### ETL Pipeline:
 
 Create a central ETL script to clean, format, and insert the extracted data into a structured database.
 Schedule and Monitor:
@@ -81,7 +83,7 @@ Advantages and Disadvantages
 Advantages
 Automation Efficiency: Robocorp allows automated execution, requiring minimal manual intervention once set up.
 
-## Scalability: Can handle multiple websites, adding more as needed.
+### Scalability: Can handle multiple websites, adding more as needed.
 
 Centralized Storage: Streamlines data into a centralized location for ease of analysis and access.
 Disadvantages
@@ -90,26 +92,26 @@ Legal Compliance and Ethics: Ensure adherence to each site’s Terms of Service 
 Data Quality and Consistency: Varying data structures across websites can lead to inconsistencies in extracted data.
 Data Structure and Processing
 
-## Data Structure:
+### Data Structure:
 
 Fields: name, date, age, location, publication, URL.
 Volume: Initially, expect a small dataset (hundreds of records), but with historical data, this could grow significantly over time.
 
-## Data Processing:
+### Data Processing:
 
 Use pandas for data cleaning and transformations, such as date standardization.
 Apply natural language processing (NLP) for advanced tasks like extracting additional structured data (e.g., relationships).
 
-# Deliverables
+## Deliverables
 
-#### Python Scripts: Separate scripts for each site’s data extraction.
+###### Python Scripts: Separate scripts for each site’s data extraction.
 
-#### Central Database: A database or file storage system to hold the data in a consistent format.
+###### Central Database: A database or file storage system to hold the data in a consistent format.
 
-#### ETL Pipeline: Script to clean and load data into the central repository.
+###### ETL Pipeline: Script to clean and load data into the central repository.
 
-#### Documentation: Detailed guide for maintaining and extending the robot to other sites.
+###### Documentation: Detailed guide for maintaining and extending the robot to other sites.
 
-#### Reports/Dashboards: Basic analytical outputs or visualizations summarizing obituary trends, possibly using tools like Tableau or Power BI if needed.
+###### Reports/Dashboards: Basic analytical outputs or visualizations summarizing obituary trends, possibly using tools like Tableau or Power BI if needed.
 
 By leveraging Robocorp’s Sema4AI with Python, you can automate obituary data collection, manage a centralized data repository, and establish a scalable ETL pipeline that efficiently retrieves and processes obituary records across multiple sites.
