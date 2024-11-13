@@ -148,6 +148,8 @@ Task 4 - LK (Daily News Archive) - https://www.dailynews.lk/2024/10/21/obituarie
 
 ![](Images/code.JPG)
 
+The result will be inside the Task folder once you run the program under "obituary_notices.txt" file
+
 ### The sample results for the "Task 1" is as follows,
 
 ![](Images/result.JPG)
