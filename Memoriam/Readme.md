@@ -118,15 +118,15 @@ By leveraging Robocorp’s Sema4AI with Python, you can automate obituary data c
 
 # Why select this option ?
 
-1.  Its simple python scripting so you can do anything and it makes easy for big data analysis with many open source libraries available.
+1. **Simple Python Scripting**: This framework uses simple Python scripting, allowing flexibility to perform various tasks. It also facilitates big data analysis with many available open-source libraries.
 
-2.  There are many libraries for data store, data export and data import options.
+2. **Data Storage and Transfer Options**: There are numerous libraries available for data storage, import, and export, providing flexibility in managing data.
 
-3.  Robocorp is provides control panel, so we can use it as a cloud application and store the data in the cloud. Also we can use cloud vaults to store security crdentials. (This part not implemented yet.)
+3. **Robocorp Integration**: Robocorp provides a control panel, enabling the use of this framework as a cloud application with data storage in the cloud. Additionally, cloud vaults can be used to securely store credentials (not yet implemented).
 
-4.  We can use variables and dynamic data in a separate file so you do not need to change them inside the code.
+4. **Dynamic Data and Variables**: Variables and dynamic data can be stored in a separate file, so they don’t need to be modified within the code itself.
 
-5.  This framework is using python scripts and runs very fast compared to other frameworks.
+5. **Efficient Performance**: This framework runs Python scripts, offering faster performance compared to other frameworks.
 
 ### The pricing information for the Robocorp Framework is available in below link
 
@@ -144,7 +144,7 @@ Task 3 - LK (Sunday Times) - https://www.sundayobserver.lk/category/obituaries/
 
 Task 4 - LK (Daily News Archive) - https://www.dailynews.lk/2024/10/21/obituaries/657697/obituaries-332/
 
-### The sample code for the "Task 1" is as follows,
+## The sample code for the "Task 1" is as follows,
 
 ![](Images/code.JPG)
 
@@ -159,3 +159,15 @@ So it has around 627 Notices in the first web page and only takes 01:54 min to c
 ./Memoriam/Task 1/ output/log.html
 
 ![](Images/log.JPG)
+
+## The sample code for the other Tasks,
+
+#### The content is similar, but there are some minor differences in data scraping methods. The detailed source code can be found in the relevant folders, and sample results are shown below.
+
+![](Images/resul2.JPG)
+
+![](Images/result3.JPG)
+
+![](Images/result4.JPG)
+
+"This can be updated further based on the requirements."
