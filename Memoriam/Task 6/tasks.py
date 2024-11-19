@@ -6,7 +6,7 @@ from datetime import datetime
 @task
 def read_obituary_notices():
     """Get obituary notices across multiple pages"""
-    browser.configure(slowmo=10)
+    browser.configure(slowmo=2000)
     open_the_website()
     scrape_all_pages()
 
@@ -51,15 +51,30 @@ def scrape_all_pages():
     except Exception as e:
         print(f"Error during pagination: {e}")
 
+# def scrape_obituary_notices(page, file):
+#     """Scrapes obituary notices from the current page"""
+#     try:
+#         h2_elements = page.query_selector_all("h2.pld-post-title")
+#         if h2_elements:
+#             for i, h2 in enumerate(h2_elements, start=1):
+#                 h2_text = clean_text(h2.inner_text())
+#                 file.write(f"Obituary Notice: {h2_text}\n")
+#         else:
+#             file.write("No obituary notices found on this page.\n")
+#     except Exception as e:
+#         print(f"Error scraping obituaries on the current page: {e}")
+
 def scrape_obituary_notices(page, file):
-    """Scrapes obituary notices from the current page"""
-    try:
-        h2_elements = page.query_selector_all("h2.pld-post-title")
-        if h2_elements:
-            for i, h2 in enumerate(h2_elements, start=1):
-                h2_text = clean_text(h2.inner_text())
-                file.write(f"Obituary Notice: {h2_text}\n")
-        else:
-            file.write("No obituary notices found on this page.\n")
-    except Exception as e:
-        print(f"Error scraping obituaries on the current page: {e}")
+     """Scrapes obituary notices inside page"""
+     try:
+         h2_elements = page.query_selector_all("h2.pld-post-title")
+         if h2_elements:
+             for i, h2 in enumerate(h2_elements, start=1):
+                 page.click(h2)
+
+                #  h2_text = clean_text(h2.inner_text())
+                #  file.write(f"Obituary Notice: {h2_text}\n")
+         else:
+             file.write("No obituary notices found on this page.\n")
+     except Exception as e:
+         print(f"Error scraping obituaries on the current page: {e}")
