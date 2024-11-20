@@ -178,7 +178,7 @@ So it has around 627 Notices in the first web page and only takes 01:54 min to c
 
 The code is updated to fetch all 4 websites in single script and upload all the data to a single file. The browser mode is updated to headless mode for higher efficiency.
 
-The total timing was 2.37s as per log.
+#### The total timing was 2.37s as per log.
 
 ![](Images/log2.JPG)
 
