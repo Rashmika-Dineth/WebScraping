@@ -4,9 +4,9 @@ import re
 from datetime import datetime
 
 @task
-def read_obituary_notices():
+def read_obituary_notices1():
     """Get obituary notices across multiple pages"""
-    browser.configure(slowmo=10)
+    browser.configure(slowmo=10, headless=True)
     open_the_website()
     scrape_all_pages()
 

@@ -2,10 +2,10 @@ from robocorp.tasks import task
 from robocorp import browser
 
 @task
-def read_obituary_notices():
+def read_obituary_notices2():
     """Get the obituary notices and handle consent banner"""
     # Slow down the system to simulate user-like interaction
-    browser.configure(slowmo=2000)
+    browser.configure(slowmo=10, headless=True)
     open_the_website()
     scrape_obituary_notices()
 

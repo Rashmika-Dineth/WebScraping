@@ -3,7 +3,8 @@ from robocorp import browser
 
 
 @task
-def read_obituary_notices():
+
+def read_obituary_notices3():
     """Main task to scrape all obituary notices by loading all content."""
     # Configure browser
     browser.configure(slowmo=1, headless=True)  # Adjust as needed
