@@ -57,7 +57,7 @@ def scrape_obituary_notices(page, file):
         h2_elements = page.query_selector_all("h2.pld-post-title")
         if h2_elements:
             for i, h2 in enumerate(h2_elements, start=1):
-                h2_text = clean_text(h2.inner_text())
+                h2_text = clean_text(h2.inner_text()).replace("\ufeff", "")
                 file.write(f"Obituary Notice: {h2_text}\n")
         else:
             file.write("No obituary notices found on this page.\n")

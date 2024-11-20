@@ -13,6 +13,6 @@ def main_task():
     read_obituary_notices2() 
     print("Starting task 3 from task_file_3...")
     read_obituary_notices3()  
-    print("Starting task 3 from task_file_4...")
+    print("Starting task 4 from task_file_4...")
     read_obituary_notices4()  
     print("All tasks completed.")

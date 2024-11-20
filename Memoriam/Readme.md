@@ -134,7 +134,7 @@ https://sema4.ai/docs/automation/pricing
 
 ![](Images/price.JPG)
 
-### The code for the given web pages as follows,
+### The code for the given web pages as follows, (13-11-2024)
 
 Task 1- Australian - https://www.elanka.com.au/obituaries/
 
@@ -173,3 +173,9 @@ So it has around 627 Notices in the first web page and only takes 01:54 min to c
 ![](Images/result4.JPG)
 
 "This can be updated further based on the requirements."
+
+### Further Improvements (20-11-2024)
+
+The code is updated to fetch all 4 websites in single script and upload all the data to a single file. The browser mode is updated to headless mode for higher efficiency.
+
+The total timing was 2.37s as per log.
