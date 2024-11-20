@@ -174,8 +174,16 @@ So it has around 627 Notices in the first web page and only takes 01:54 min to c
 
 "This can be updated further based on the requirements."
 
-### Further Improvements (20-11-2024)
+### Further Improvements (20-11-2024) - Task 8 -
 
 The code is updated to fetch all 4 websites in single script and upload all the data to a single file. The browser mode is updated to headless mode for higher efficiency.
 
 The total timing was 2.37s as per log.
+
+![](Images/log2.JPG)
+
+And total of 556 notices were scraped.
+
+The latest code included the obtain more data with Load More function in the site 3.
+
+The obtained data can be found in obituary_notices.txt in the Task 8 folder
