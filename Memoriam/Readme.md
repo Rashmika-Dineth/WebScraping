@@ -187,3 +187,19 @@ And total of 556 notices were scraped.
 The latest code included the obtain more data with Load More function in the site 3.
 
 The obtained data can be found in obituary_notices.txt in the Task 8 folder
+
+### Further Improvements (25-11-2024) - Task 9 / Task 10 -
+
+The data processing and Data extraction methods included in Task 9 and Task 10
+
+### Further Improvements (28-11-2024)
+
+The same objective is obtained using NodeJS and the execution time was analysed,
+
+![](Images/Time_sema4.JPG)
+
+![](Images/TimeNodeJS.JPG)
+
+The NodeJS with playwright took **48 s** and using python with sema4 took **1.29 min**
+
+So it would be benificial to use NodeJS with playwrite considering the performance.
