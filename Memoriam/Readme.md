@@ -194,12 +194,14 @@ The data processing and Data extraction methods included in Task 9 and Task 10
 
 ### Further Improvements (28-11-2024)
 
-The same objective is obtained using NodeJS and the execution time was analysed,
+The same objective is obtained using NodeJS and the execution time was analyzed,
 
+<ins>Execution time with Sema4 (Python)</ins>
 ![](Images/Time_sema4.JPG)
 
+<ins>Execution time with Playwright (NodeJS)</ins>
 ![](Images/TimeNodeJS.JPG)
 
 The NodeJS with playwright took **48 s** and using python with sema4 took **1.29 min**
 
-So it would be benificial to use NodeJS with playwrite considering the performance.
+So it would be beneficial to use NodeJS with Playwright considering the performance.
