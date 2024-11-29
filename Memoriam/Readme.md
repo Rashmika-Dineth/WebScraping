@@ -192,7 +192,7 @@ The obtained data can be found in obituary_notices.txt in the Task 8 folder
 
 The data processing and Data extraction methods included in Task 9 and Task 10
 
-### Further Improvements (28-11-2024)
+### Further Improvements (28-11-2024) - using - NodeJS -
 
 The same objective is obtained using NodeJS and the execution time was analyzed,
 
