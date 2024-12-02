@@ -205,3 +205,11 @@ The same objective is obtained using NodeJS and the execution time was analyzed,
 The NodeJS with playwright took **48 s** and using python with sema4 took **1.29 min**
 
 So it would be beneficial to use NodeJS with Playwright considering the performance.
+
+### Further Improvements (02-12-2024) - using - NodeJS -
+
+![](Images/NodeJS/Task2_1.JPG)
+
+![](Images/NodeJS/Task2_1.JPG)
+
+When using the second website (2 - Canada (Times of Lanka) - https://reserved767.rssing.com/chan-65241722/all_p1.html) to scrape 127 records it took **8.7 s**.
