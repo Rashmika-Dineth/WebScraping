@@ -75,6 +75,5 @@ const { performance } = require("perf_hooks");
     console.log(`Execution Time: ${(endTime - startTime).toFixed(2)}ms`);
   };
 
-  // Run the task
   readObituaryNotices2();
 })();
