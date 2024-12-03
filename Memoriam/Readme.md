@@ -213,3 +213,13 @@ So it would be beneficial to use NodeJS with Playwright considering the performa
 ![](Images/NodeJS/Task2_1.JPG)
 
 When using the second website (2 - Canada (Times of Lanka) - https://reserved767.rssing.com/chan-65241722/all_p1.html) to scrape 127 records it took **8.7 s**.
+
+### Further Improvements (03-12-2024) - using - NodeJS -
+
+![](Images/NodeJS/Task3_3.JPG)
+
+![](Images/NodeJS/Task3_1.JPG)
+
+![](Images/NodeJS/Task3_1.JPG)
+
+When using the second website (3 - LK (Sunday Times) - https://www.sundayobserver.lk/category/obituaries/) to scrape 55 records it took **14.26 s**.
