@@ -223,3 +223,15 @@ When using the second website (2 - Canada (Times of Lanka) - https://reserved767
 ![](Images/NodeJS/Task3_1.JPG)
 
 When using the second website (3 - LK (Sunday Times) - https://www.sundayobserver.lk/category/obituaries/) to scrape 55 records it took **14.26 s**.
+
+### Further Improvements (12-12-2024) - using - NodeJS -
+
+![](Images/NodeJS/NodeStructure.JPG)
+
+![](Images/NodeJS/nodeConsolidation.JPG)
+
+![](Images/NodeJS/nodeConsolidationResults.JPG)
+
+It took **74.1 s** to consolidate aroud 600 lines from all 4 websites. Compared to other frameworks NodeJS has more advantages.
+
+## - Further Improvements on AWS Implementation
