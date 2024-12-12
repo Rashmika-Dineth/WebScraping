@@ -232,6 +232,6 @@ When using the second website (3 - LK (Sunday Times) - https://www.sundayobserve
 
 ![](Images/NodeJS/nodeConsolidationResults.JPG)
 
-It took **74.1 s** to consolidate aroud 600 lines from all 4 websites. Compared to other frameworks NodeJS has more advantages.
+It took **74.1 s** to consolidate around 600 lines from all 4 websites. Compared to other frameworks NodeJS has more advantages.
 
 ## - Further Improvements on AWS Implementation
