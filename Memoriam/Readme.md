@@ -246,4 +246,4 @@ For instance, Python stands out as an excellent choice for report generation, gi
 
 In summary, selecting the appropriate tools and languages requires balancing the trade-offs of each technology while ensuring they align with the project’s scope and long-term objectives. By leveraging the strengths of Python for report generation and NodeJS for cloud services, alongside tools like Playwright for automation, we can optimize the overall efficiency and effectiveness of the project.
 
-![](Images/NodeJS/NodeVsPython.JPG)
+![](Images/NodeJS/NodeVsPython.png)
