@@ -5,10 +5,16 @@ from datetime import datetime
 
 @task
 def read_obituary_notices1():
-    """Get obituary notices across multiple pages"""
+    """Get obituary notices across multiple pages and measure execution time"""
+    start_time = datetime.now()  # Start timer
+    
     browser.configure(slowmo=10, headless=True)
     open_the_website()
     scrape_all_pages()
+    
+    end_time = datetime.now()  # End timer
+    elapsed_time = end_time - start_time
+    print(f"Execution Time: {elapsed_time}")
 
 def open_the_website():
     """Navigates to the given URL and closes the consent banner if present"""

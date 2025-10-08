@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Knowledge Improvements\\WebScraping\\C#\\DataScraping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{768D75F4-F58E-444B-9F0C-5433B2A4D94A}|DataScraping\\DataScraping.csproj|f:\\knowledge improvements\\webscraping\\c#\\datascraping\\datascraping\\obituaryscraper1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768D75F4-F58E-444B-9F0C-5433B2A4D94A}|DataScraping\\DataScraping.csproj|solutionrelative:datascraping\\obituaryscraper1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768D75F4-F58E-444B-9F0C-5433B2A4D94A}|DataScraping\\DataScraping.csproj|f:\\knowledge improvements\\webscraping\\c#\\datascraping\\datascraping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768D75F4-F58E-444B-9F0C-5433B2A4D94A}|DataScraping\\DataScraping.csproj|solutionrelative:datascraping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768D75F4-F58E-444B-9F0C-5433B2A4D94A}|DataScraping\\DataScraping.csproj|f:\\knowledge improvements\\webscraping\\c#\\datascraping\\datascraping\\obituaryscraper2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768D75F4-F58E-444B-9F0C-5433B2A4D94A}|DataScraping\\DataScraping.csproj|solutionrelative:datascraping\\obituaryscraper2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObituaryScraper2.cs",
+              "DocumentMoniker": "F:\\Knowledge Improvements\\WebScraping\\C#\\DataScraping\\DataScraping\\ObituaryScraper2.cs",
+              "RelativeDocumentMoniker": "DataScraping\\ObituaryScraper2.cs",
+              "ToolTip": "F:\\Knowledge Improvements\\WebScraping\\C#\\DataScraping\\DataScraping\\ObituaryScraper2.cs",
+              "RelativeToolTip": "DataScraping\\ObituaryScraper2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T07:25:14.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObituaryScraper1.cs",
+              "DocumentMoniker": "F:\\Knowledge Improvements\\WebScraping\\C#\\DataScraping\\DataScraping\\ObituaryScraper1.cs",
+              "RelativeDocumentMoniker": "DataScraping\\ObituaryScraper1.cs",
+              "ToolTip": "F:\\Knowledge Improvements\\WebScraping\\C#\\DataScraping\\DataScraping\\ObituaryScraper1.cs",
+              "RelativeToolTip": "DataScraping\\ObituaryScraper1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T18:38:37.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Knowledge Improvements\\WebScraping\\C#\\DataScraping\\DataScraping\\Program.cs",
+              "RelativeDocumentMoniker": "DataScraping\\Program.cs",
+              "ToolTip": "F:\\Knowledge Improvements\\WebScraping\\C#\\DataScraping\\DataScraping\\Program.cs",
+              "RelativeToolTip": "DataScraping\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T18:36:20.305Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
